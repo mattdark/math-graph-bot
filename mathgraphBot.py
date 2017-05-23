@@ -6,7 +6,7 @@ import logging
 import operator
 from graph import graph
 
-updater = Updater(token='374557743:AAFX4WOpyjlYW2pQP9kW6ApXHMd42zmIyJQ')
+updater = Updater(token='TOKEN')
 dispatcher = updater.dispatcher
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)

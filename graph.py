@@ -34,3 +34,4 @@ def graph(string, x_range):
     y = eval(string)
     plt.plot(x, y)
     plt.savefig('graph.png', bbox_inches='tight')
+    plt.gcf().clear()
